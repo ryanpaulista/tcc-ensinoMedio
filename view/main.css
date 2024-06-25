@@ -1,0 +1,391 @@
+@font-face {
+  font-family: teko;
+  src: url(./fonts/Teko-Bold.ttf);
+}
+
+* {
+    font-family: teko;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: white;
+}
+
+.geral {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+  
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s;
+    left: 30px;
+  }
+  
+  a:hover {
+    opacity: 0.7;
+  }
+  
+  .logo {
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 180px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    height: 9vh;
+    border-bottom: solid 1px rgba(211, 211, 211, 0.297);
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    margin: 180px;
+  }
+  
+  .nav-list li {
+    letter-spacing: 3px;
+    margin-left: 25px;
+    color: white;
+    border-right: solid 1px rgba(211, 211, 211, 0.297);
+    padding-right: 20px;
+  }
+
+
+  #container-inicio{
+    font-size: 0;
+  }
+
+  #container-continuação{
+    font-size: 0;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+
+  #inicio1 {
+    background-color: #000000;
+    background-size: 90vh;
+    width: 60%;
+    height: 92vh;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: static;
+  }
+  #inicio2 {
+    background: url("images/logo\ fluxo.jpg") no-repeat left ;
+    background-size: 75vh;
+    background-color: #000000;
+    background-position: -68px;
+    width: 40%;
+    height: 92vh;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  #textprincipal2{
+    position: relative;
+    font-size: 50px;
+    top: 30vh;
+    left: 180px;
+    color: white;
+  }
+
+  .button{
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 50px;
+    position: relative;
+    top: 36vh;
+    left: 180px;
+  }
+  
+  .button1 {
+    background-color: rgba(211, 211, 211, 0.297); 
+    color: rgb(255, 255, 255); 
+  }
+  
+  .button1:hover {
+    background-color: rgb(255, 255, 255);
+    color:  rgb(0, 0, 0); 
+  }
+
+  #anuncio-lbff{
+    display: inline-block;  
+    position: static;
+    font-size: 0;
+  }
+
+  #anuncio {
+    height: 50vh;
+    width: 100vh;
+    font-size: 0;
+  }
+
+  #anuncio p {
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 40px;
+    text-align: justify;
+  }
+  
+  #anuncio iframe{
+    background: cover;
+    height: 100%;
+    width: 100vh;
+  }
+
+  #lbff{
+    background-image: url("images/fluxo-campeao.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(30, 30, 30, 0.863);
+    width: 100vh;
+    height: 50vh;
+  }
+
+  #externa-legenda{
+    display: inline-block;
+    width: 100vh;
+    height: 100vh;
+    margin: -4;
+    padding: 0;
+    position: absolute;
+    font-size: 0;
+  }
+
+  #legenda-anuncio{
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+    color: white;
+    font-size: 34px;  
+    text-align: center;
+  }
+
+  #legenda-anuncio h1{
+    margin: 40px;
+
+  }
+
+  #legenda-anuncio p{
+    margin: 50px;
+    font-size: 25px;
+    text-align: justify;
+  }
+
+#container-form {
+  width: 500px;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 7vh;
+  background-color: rgba(211, 211, 211, 0.084);
+  border-radius: 10px;
+}
+.form {
+  color: white;
+  background: none;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.form p {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 50px;
+  border-bottom: solid 1px rgba(211, 211, 211, 0.297);
+  width: 100%;
+  text-align: center;
+  background-color: transparent;
+}
+
+.form label{
+  
+  background-color: transparent;
+}
+
+.form input{
+  background-color: transparent;
+  font-size: 25px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.822);
+  border: none;
+  border-bottom: rgba(211, 211, 211, 0.297) solid 1px;
+  width: 400px;
+  outline: none;
+}
+
+#container-titulo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  width: 100%;
+}
+
+#container-button {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  background-color: transparent;
+  border-bottom: none;
+}
+
+#container-button p{
+  margin: 0;
+  margin-bottom: 7px;
+  padding: 0;
+  font-size: 20px;
+  border-bottom: none;
+}
+
+.form button {
+  background-color: white;
+  color: black;
+  font-size: 25px;
+  border: none; 
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#container-continuação2{
+  width: 100%;
+  height: 100vh;
+}
+
+#continuação2-esquerda {
+  width: 100vh;
+  height: 100vh ;
+  font-size: 14px;
+  display: inline-block;
+}
+
+#continuação2-esquerda h1{
+  margin: 50px  ;
+}
+
+#anuncio-demons{
+  height: 50vh;
+  width: 100vh;
+  font-size: 0;
+  margin-top: 10vh;
+}
+#anuncio-demons iframe{
+  background: cover;
+  height: 100%;
+  width: 100vh;
+}
+
+#continuação2-direita{
+  position: relative;
+  display: inline-block;
+  width: 100vh;
+  height: 100%;
+}
+
+#continuação2-img1{
+  background: url(images/poppins.png) bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: +150px 0px;
+  width: 100vh;
+  height: 50%;
+  margin-top: 100px;
+}
+
+#continuação2-img2{
+  background: url(images/goddes.png) bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: +70px 0px;
+  width: 100vh;
+  height: 50%;
+  margin-top: -120px;
+}
+
+#continuação3-img1{
+  background: url(images/vsm.png) bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: +170px 0px;
+  width: 100vh;
+  height: 50%;
+  margin-top: 100px;
+}
+
+#continuação3-img2{
+  background: url(images/csline.png) bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: +100px 0px;
+  width: 100vh;
+  height: 60%;
+  margin-top: -210px;
+  
+}
+
+#titulo-hok{
+  font-size: 40px;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+#rodape {
+  position: relative;
+  width: 90%;
+  height: 220px;
+  border: solid rgba(211, 211, 211, 0.297) 2px;
+  margin-left: 5vh;
+  font-size: 10px;
+  margin-top: 200px;
+}
+
+#rodape h1 {
+  margin-left: 60px;
+  margin-top: 20px;
+}
+#rodape h2 {
+  margin-left: 300px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+#rodape p {
+  margin-left: 40px;
+  margin-top: 20px;
+  font-size: 20px;
+}

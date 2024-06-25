@@ -1,0 +1,26 @@
+<div id="container-form" style="height: 450px;">
+        
+    <form action="/autenticar-usuario" id="form" class="form" method="post">
+
+        <div id="container-titulo">
+        <p>Faça Login</p>
+        </div>
+
+        <label for="email">Email:</label><br>
+        <input type="email" name="email"><br>
+        <label for="senha">Senha:</label><br>
+        <input type="password" name="senha"><br>
+
+        <div id="container-button">
+            <% if (erroLoginSenha){ %>
+                <p style="color: red;">Senha Incorreta!</p>
+            <% }else if(erroLoginUsuario){  %>
+                <p style="color: red;">Email Incorreto!</p>
+            <% }else{ %>
+                <p></p>
+            <% } %>
+            <button type="submit">Logar</button>
+        </div>
+
+    </form>
+</div>

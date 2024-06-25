@@ -1,0 +1,30 @@
+<div id="container-form">
+        
+    <form action="/cadastrar-usuario" id="form" class="form" method="post">
+
+        <div id="container-titulo">
+            <p>Cadastre-se</p>
+        </div>
+
+        <label for="nome">Nome de usuário:</label><br>
+        <input type="text" name="nome"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" name="email"><br>
+        <label for="senha">Senha:</label><br>
+        <input type="password" name="senha"><br>
+
+        <div id="container-button">
+            
+            <% if (usuarioExiste){ %>
+                <p style="color: red;">Esse email já está em uso! Use outro.</p>
+            <% }else{  %>
+                <p></p>
+            <% } %>
+                
+            <button type="submit">Cadastrar</button>
+        </div>
+
+    </form>
+</div>
+
+
